@@ -1,0 +1,52 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    height: fit-content;
+}
+
+/* Navbar Settings */
+.navbar {
+    background-color: #a0a0a0;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 .4rem;
+}
+
+.navbar a {
+    color: #000;
+    transition: 0.3s;
+    padding: 0 1rem;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    color: white;
+}
+.navbar li a:hover{
+    color: rgba(0, 0, 0, .4);
+}
+.collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collapse button{
+    background-color: #a0a0a0;
+    padding: .3rem 1rem;
+    margin: 0;
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: .5rem;
+    font-size: medium;
+}
+.collapse button:hover{
+    opacity: 0.8;
+    background-color: blue;
+    border-color: blue;
+}
